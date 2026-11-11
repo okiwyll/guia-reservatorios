@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assoreamento | Guia Qualidade de Água em Reservatórios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>:root{
+  --deep:#0b3558; --river:#1670a8; --turq:#12a3a0; --cyan:#bfe9f2;
+  --bg:#f3f7f9; --surface:#ffffff; --ink:#15283a; --muted:#56697a; --line:#d5e0e7;
+  --soft:#e6f2f6; --ok:#1c8a5a; --bad:#b4432f; --on-deep:#ffffff; --on-deep-muted:#c4dceb;
+  --display:"Sora","Segoe UI",system-ui,sans-serif; --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --deep:#082a45; --river:#5bb4e6; --turq:#3fd0c9; --cyan:#17465a;
+    --bg:#0c1822; --surface:#13232f; --ink:#e4eef4; --muted:#9db2c1; --line:#27404f;
+    --soft:#17303d; --ok:#56c794; --bad:#f08f7b; --on-deep:#ffffff; --on-deep-muted:#b4cfdf;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --deep:#082a45; --river:#5bb4e6; --turq:#3fd0c9; --cyan:#17465a;
+  --bg:#0c1822; --surface:#13232f; --ink:#e4eef4; --muted:#9db2c1; --line:#27404f;
+  --soft:#17303d; --ok:#56c794; --bad:#f08f7b; --on-deep:#ffffff; --on-deep-muted:#b4cfdf;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65}
+a{color:var(--river)} a:focus-visible{outline:3px solid var(--turq);outline-offset:2px}
+h1,h2{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+header{background:var(--deep);color:#fff;padding:18px 24px}
+.head-in{max-width:760px;margin:0 auto;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+.logos{display:flex;gap:10px;flex-wrap:wrap}
+.logos span{background:#fff;border-radius:8px;padding:6px 10px;display:flex}
+.logos img{height:44px;width:auto;display:block}
+header a{color:#fff;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:5px 14px}
+main{max-width:760px;margin:0 auto;padding:32px 24px 72px;display:flex;flex-direction:column;gap:12px}
+.kicker{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--turq);font-weight:600;margin:0}
+h1{font-size:clamp(1.7rem,4vw,2.3rem)}
+h2{font-size:1.12rem;color:var(--river);margin-top:16px}
+p{margin:0;max-width:68ch}
+.web{margin:0;padding-left:1.2em;max-width:68ch}.web li+li{margin-top:6px}
+.src{margin-top:16px;padding:12px 16px;background:var(--soft);border-radius:10px;font-size:.95rem}
+.pager{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.pager a{font-weight:600;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:20px 24px;text-align:center;color:var(--muted);font-size:.88rem}
+</style></head>
+<body>
+<header><div class="head-in">
+<div class="logos"><span><img src="../img/profagua.jpg" alt="ProfÁgua"></span><span><img src="../img/unemat.png" alt="UNEMAT"></span></div>
+<a href="../index.html#parte-2">← Voltar ao guia</a>
+</div></header>
+<main><p class="kicker">Parte 2 · Problema 5 de 8</p><h1>Assoreamento</h1><h2>O que é</h2><p>É o acúmulo de sedimentos no reservatório, que reduz sua profundidade e seu volume.</p><h2>Como se forma</h2><p>A barragem diminui a velocidade da água, e o material transportado pelo rio decanta, primeiro na entrada, onde forma um delta. A origem está na bacia: erosão em áreas agrícolas e pastagens, estradas, mineração e perda da mata ripária.</p><h2>Como reconhecer</h2><p>Levantamentos batimétricos periódicos, comparados ao longo dos anos, mais as medidas de turbidez e de sólidos em suspensão nos tributários. A ANA e a ANEEL exigem o acompanhamento do assoreamento em reservatórios hidrelétricos.</p><h2>Efeitos sobre os usos</h2><p>Perda de volume útil e de vida útil, obstrução de tomadas d'água, prejuízo à navegação. Os sedimentos finos também carregam fósforo e contaminantes para dentro do reservatório.</p><h2>Como gerenciar</h2><p>Conservação do solo, recuperação de matas ripárias, estruturas de retenção nos tributários, operação de descargas de fundo e, em pontos críticos, dragagem.</p><h2>Na internet</h2><ul class="web"><li><a href="https://www.gov.br/ana/pt-br/assuntos/monitoramento-e-eventos-criticos/monitoramento-hidrologico/orientacoes-manuais/entidades/guia-avaliacao-assoreamento-reservatorios-aneel-2000.pdf" target="_blank" rel="noopener">Guia de avaliação de assoreamento de reservatórios (ANEEL, no portal da ANA, PDF) ↗</a></li></ul><p class="src"><strong>Para saber mais:</strong> Straškraba e Tundisi (2013); Tundisi (2008).</p><div class="pager"><a href="carga-interna.html">← Carga interna de fósforo</a><a href="macrofitas.html">Macrófitas em excesso →</a></div></main>
+<footer>ProfÁgua · Mestrado Profissional em Rede Nacional em Gestão e Regulação de Recursos Hídricos · UNEMAT</footer>
+</body></html>
